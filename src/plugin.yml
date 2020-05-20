@@ -1,0 +1,15 @@
+name: MewoEconomy
+main: com.mewo.economy.MarketGUI
+version: 1.0
+author: 619815617
+depend: [Vault]
+commands:
+  oremarket:
+    description: none
+    usage: none
+    aliases: [mk]
+    permission: oremarket.use
+    permission-message: §c无权执行！
+permissions:
+  meco.use:
+    default: op

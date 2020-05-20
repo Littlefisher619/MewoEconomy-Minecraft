@@ -1,0 +1,118 @@
+#Mewo Economy Configure File#
+#Ver1.0#
+EMERALD:
+  gui:
+    title: "§d稀有资源交易 - 绿宝石"
+    name: "§b绿宝石"
+    iconid: 388
+    slot: 10
+    #从0开始编号
+  value: 400
+  #价值量
+  price:
+    today: 400
+    #今日开盘价
+    now: 400
+    #现价
+  limit:
+    price:
+    #价格范围限制
+      max: 800
+      min: 100
+    sell:
+    #玩家卖出限制
+      per: 10
+      fell: 0.3
+    buy:
+    #玩家买入限制
+      per: 10
+      raise: 0.2
+  daily_float:
+  #每日浮动±X
+    from: 0.2
+    to: 0.4
+  daily_restore: 0.35
+  #恢复率
+
+DIAMOND:
+  gui:
+    title: "§d稀有资源交易 - 钻石"
+    name: "§b钻石"
+    iconid: 264
+    slot: 12
+  value: 200
+  price:
+    today: 200
+    now: 200
+  limit:
+    price:
+      max: 400
+      min: 50
+    sell:
+      per: 30
+      fell: 0.4
+    buy:
+      per: 30
+      raise: 0.3
+  daily_float:
+    from: 0.15
+    to: 0.3
+  daily_restore: 0.3
+
+GOLD_INGOT:
+  gui:
+    title: "§d稀有资源交易 - 金锭"
+    name: "§b金锭"
+    iconid: 266
+    slot: 14
+  value: 40
+  price:
+    today: 40
+    now: 40
+  limit:
+    price:
+      max: 80
+      min: 10
+    sell:
+      per: 25
+      fell: 0.3
+    buy:
+      per: 25
+      raise: 0.15
+  daily_float:
+    from: 0.15
+    to: 0.25
+  daily_restore: 0.2
+
+IRON_INGOT:
+  gui:
+    title: "§d稀有资源交易 - 铁锭"
+    name: "§b铁锭"
+    iconid: 265
+    slot: 16
+  value: 8
+  price:
+    today: 8
+    now: 8
+  limit:
+    price:
+      max: 16
+      min: 2
+    sell:
+      per: 20
+      fell: 0.1
+    buy:
+      per: 20
+      raise: 0.5
+  daily_float:
+    from: 0.1
+    to: 0.2
+  daily_restore: 0.5
+
+#设置部分
+Settings:
+  GUITitle: "§1交易市场 §c>§6>§e>"
+  Prefix: "§e喵窝交易市场"
+  MoneyUnit: "喵币"
+  AntiBotDelay: 200
+  LastUpdateDate: 19700101
